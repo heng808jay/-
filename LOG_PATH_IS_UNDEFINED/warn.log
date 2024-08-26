@@ -1,0 +1,2 @@
+23-10-13 14:23:06.957 [main] WARN  [TableInfoHelper.java:296] - Warn: Could not find @TableId in Class: com.access.accessauth.model.ApplyJob.
+23-10-13 14:24:10.969 [main] WARN  [TableInfoHelper.java:296] - Warn: Could not find @TableId in Class: com.access.accessauth.model.ApplyJob.

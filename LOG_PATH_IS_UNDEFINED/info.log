@@ -1,0 +1,40 @@
+23-10-13 14:23:03.977 [main] INFO  [StartupInfoLogger.java:55] - Starting AccessAuthApplication on zhouxindeAir with PID 31614 (/Users/zhouxin/workspace/self/access-auth/target/classes started by zhouxin in /Users/zhouxin/workspace/self/access-auth)
+23-10-13 14:23:03.981 [main] INFO  [SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+23-10-13 14:23:06.023 [main] INFO  [TomcatWebServer.java:92] - Tomcat initialized with port(s): 8080 (http)
+23-10-13 14:23:06.035 [main] INFO  [DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+23-10-13 14:23:06.037 [main] INFO  [DirectJDKLog.java:173] - Starting service [Tomcat]
+23-10-13 14:23:06.038 [main] INFO  [DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+23-10-13 14:23:06.159 [main] INFO  [DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+23-10-13 14:23:06.160 [main] INFO  [ServletWebServerApplicationContext.java:284] - Root WebApplicationContext: initialization completed in 2105 ms
+23-10-13 14:23:07.677 [main] INFO  [ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+23-10-13 14:23:07.984 [main] INFO  [ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+23-10-13 14:23:08.056 [main] INFO  [DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8080"]
+23-10-13 14:23:08.079 [main] INFO  [DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-8080"]
+23-10-13 14:23:08.079 [main] INFO  [DirectJDKLog.java:173] - Stopping service [Tomcat]
+23-10-13 14:23:08.232 [main] INFO  [DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-8080"]
+23-10-13 14:23:08.233 [main] INFO  [DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-8080"]
+23-10-13 14:23:08.253 [main] INFO  [ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+23-10-13 14:23:08.255 [main] INFO  [ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+23-10-13 14:23:08.258 [main] INFO  [DruidDataSource.java:1965] - {dataSource-0} closing ...
+23-10-13 14:24:06.622 [main] INFO  [StartupInfoLogger.java:55] - Starting AccessAuthApplication on zhouxindeAir with PID 31673 (/Users/zhouxin/workspace/self/access-auth/target/classes started by zhouxin in /Users/zhouxin/workspace/self/access-auth)
+23-10-13 14:24:06.629 [main] INFO  [SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+23-10-13 14:24:09.619 [main] INFO  [TomcatWebServer.java:92] - Tomcat initialized with port(s): 8080 (http)
+23-10-13 14:24:09.642 [main] INFO  [DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+23-10-13 14:24:09.648 [main] INFO  [DirectJDKLog.java:173] - Starting service [Tomcat]
+23-10-13 14:24:09.648 [main] INFO  [DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+23-10-13 14:24:09.801 [main] INFO  [DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+23-10-13 14:24:09.801 [main] INFO  [ServletWebServerApplicationContext.java:284] - Root WebApplicationContext: initialization completed in 3049 ms
+23-10-13 14:24:11.968 [main] INFO  [ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+23-10-13 14:24:12.370 [main] INFO  [ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+23-10-13 14:24:12.451 [main] INFO  [DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8080"]
+23-10-13 14:24:12.497 [main] INFO  [TomcatWebServer.java:204] - Tomcat started on port(s): 8080 (http) with context path ''
+23-10-13 14:24:12.500 [main] INFO  [StartupInfoLogger.java:61] - Started AccessAuthApplication in 7.435 seconds (JVM running for 8.735)
+23-10-13 14:25:00.004 [scheduling-1] INFO  [AccessJob.java:55] - 开始下发权限==========================
+23-10-13 14:25:00.013 [scheduling-1] INFO  [AccessJob.java:56] - 172.0.26.200:443
+23-10-13 14:25:00.014 [scheduling-1] INFO  [AccessJob.java:57] - 28193063
+23-10-13 14:25:00.015 [scheduling-1] INFO  [AccessJob.java:58] - wqErDx93IZ7apwsVMh5h
+23-10-13 14:25:00.407 [scheduling-1] INFO  [DruidDataSource.java:1003] - {dataSource-1} inited
+23-10-13 14:25:32.166 [SpringContextShutdownHook] INFO  [ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+23-10-13 14:25:32.169 [SpringContextShutdownHook] INFO  [ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+23-10-13 14:25:32.170 [SpringContextShutdownHook] INFO  [DruidDataSource.java:1965] - {dataSource-1} closing ...
+23-10-13 14:25:32.181 [SpringContextShutdownHook] INFO  [DruidDataSource.java:2037] - {dataSource-1} closed

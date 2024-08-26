@@ -1,0 +1,31 @@
+#  ?????
+spring:
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/auth?characterEncoding=utf-8&useSSL=false&serverTimeZone=GMT+8
+#    username: root
+#    password: 123456
+
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@10.0.120.119:1521/orcl
+    username: jssfjx_zjk
+    password: jssfjx_zjk2023
+
+mybatis:
+  type-aliases-package: com.access.accessauth.dao
+
+logging:
+  level:
+    io.swagger.*: error
+    com.accesss.accessauth: debug
+    org.springframework.boot.autoconfigure: ERROR
+  config: classpath:logback-spring.xml
+  file:
+    path: /home/logs
+
+artemisConfig:
+  host: 10.255.255.6:443
+  appKey: 28193063
+  appSecret: wqErDx93lZ7apwsVMh5h
